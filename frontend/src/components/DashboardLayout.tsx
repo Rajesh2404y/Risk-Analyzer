@@ -115,7 +115,7 @@ function DashboardLayout({ children, title = 'AI Expense Risk Analyzer' }: Dashb
         </Box>
       </Drawer>
 
-      <Box component="main">
+      <Box component="main" sx={{ maxWidth: '1920px', margin: '0 auto' }}>
         {children}
       </Box>
     </Box>
